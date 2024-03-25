@@ -1,0 +1,19 @@
+.header-logo { 
+    width: 150px;
+    margin-left: 50px    
+}
+
+.header-txts { 
+    /* text-align: right; */
+    display: inline-block;
+    padding-left: 1120px;
+    /* display: inline; */
+    padding: 20px;
+
+}
+
+.inline-txt { 
+        text-align: right;
+        display: inline;
+        margin-left: 20px; /* Add some spacing between the header texts */
+    }

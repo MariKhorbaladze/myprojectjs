@@ -4,32 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="fonts.css"> -->
     <title>Document</title>
 </head>
 <body>
     <header>
-        <nav>
-            <img src="./imgs/logo.png" alt="medium.com logo" class="header-logo">
-            <div class="header-txt">
-                <div class="inline-txt">
-                    <p>
-                        Our Story
-                    </p>
-                    <p>
-                        MemberShip
-                    </p>
-                    <p>
-                        Write
-                    </p>
-                    <p>
-                        Sign In
-                    </p>
-                    <button>Get Started</button>
-                </div>
-       
+       <section class="header-section">
+        <div class="header-container">
+            <div class="logo-items">
+                <a href="./index.html">
+                    <img src="./imgs/logo.svg" alt="logo" class="header-logo">
+                </a>
+                <a href="./index.html"> <p class="logo-txt">Medium</p></a>
             </div>
-        </nav>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li>
+                       <a href="./ourstory.html">Our story</a>
+                    </li>
+                    <li>
+                       <a href="./membership.html">Membership</a>
+                    </li>
+                    <li>
+                        <a href="./write.html">Write</a>
+                    </li>
+                    <li>
+                        <a href="./admin.html">Sign in</a>
+                    </li>
+                </ul>
+                <input class="header-button" type="button" value="Get started">
+            </nav>
+         </div>
+       </section>
     </header>
+            <main>
+             <section class="stay-curious">
+                <div class="reading-container">
+                    <div class="main-txt">
+                        <h1 class="curious-txt">Stay curious.</h1>
+                        <h4 class="discover-txt">Discover stories, thinking, and expertise from <br> writers on any topic</h4>
+                        <input type="button" value="Start reading" class="reading-button">
+                    </div>
+                </div>
+             </section>
+             <section class="trending">
     
+             </section>
+        </main>
 </body>
 </html>

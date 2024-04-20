@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "arial";
+    src: url(./fonts/ArialCEBoldItalic.ttf);
+}
+@font-face {
+    font-family: "helvetica";
+    src: url(./fonts/Helvetica-Bold.ttf);
+}
+@font-face {
+    font-family: "sanserif";
+    src: url(./fonts/SansSerifBookFLF-Italic.otf);
+}
+@font-face {
+    font-family: "sohne";
+    src: url(./fonts/TestSöhneSchmal-ExtrafettKursiv.otf);
+}
